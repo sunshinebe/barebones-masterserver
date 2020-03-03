@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
+using Mirror;
 using UnityEngine.SceneManagement;
 
 public class StartSpawnedServerUnsafe : MonoBehaviour

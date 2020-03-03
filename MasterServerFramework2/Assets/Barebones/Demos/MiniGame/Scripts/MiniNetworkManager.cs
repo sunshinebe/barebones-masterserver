@@ -2,11 +2,11 @@
 using System.Linq;
 using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
+using Mirror;
 
 public class MiniNetworkManager : NetworkManager
 {
-    public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
+    public  void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
     {
         SpawnPlayer(conn, "Player", "carrot");
     }

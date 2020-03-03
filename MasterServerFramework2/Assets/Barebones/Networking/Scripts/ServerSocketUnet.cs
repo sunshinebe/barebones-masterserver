@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
+using HostTopology = UnityEngine.Networking.HostTopology;
+using NetworkTransport = UnityEngine.Networking.NetworkTransport;
+using Mirror;
 
 namespace Barebones.Networking
 {

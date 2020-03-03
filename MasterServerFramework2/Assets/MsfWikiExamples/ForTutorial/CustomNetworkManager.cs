@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
+using Mirror;
 
 public class CustomNetworkManager : NetworkManager
 {
 
-    public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
+    public  void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
     {
         var player = Instantiate(playerPrefab);
 

@@ -1,4 +1,6 @@
-﻿using UnityEngine.Networking;
+﻿using ConnectionConfig = UnityEngine.Networking.ConnectionConfig;
+using HostTopology = UnityEngine.Networking.HostTopology;
+using Mirror;
 
 namespace Barebones.Networking
 {

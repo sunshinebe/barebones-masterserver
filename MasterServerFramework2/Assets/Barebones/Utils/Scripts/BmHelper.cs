@@ -1,7 +1,8 @@
 ﻿using System;
 using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
+using ConnectionConfig = UnityEngine.Networking.ConnectionConfig;
+using Mirror;
 
 namespace Barebones.Utils
 {

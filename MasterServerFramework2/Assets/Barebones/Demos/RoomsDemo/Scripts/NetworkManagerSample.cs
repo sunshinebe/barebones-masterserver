@@ -1,6 +1,6 @@
 ﻿using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
+using Mirror;
 
 /// <summary>
 /// This is a small network manager example, which shows you how you can use the

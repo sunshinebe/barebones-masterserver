@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
-using UnityEngine.Networking;
+using NetworkTransport = UnityEngine.Networking.NetworkTransport;
+using Mirror;
 
 namespace Barebones.Networking
 {

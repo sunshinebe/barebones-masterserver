@@ -3,8 +3,8 @@ using System.Collections;
 using Barebones.Logging;
 using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
-using UnityEngine.Networking.NetworkSystem;
+using Mirror;
+//using UnityEngine.Networking.NetworkSystem;
 using UnityEngine.SceneManagement;
 
 public class UnetRoomConnector : RoomConnector

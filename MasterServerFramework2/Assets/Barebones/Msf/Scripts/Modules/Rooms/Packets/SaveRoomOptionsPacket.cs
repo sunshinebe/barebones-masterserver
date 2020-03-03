@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Runtime.Serialization;
 using Barebones.Networking;
-using UnityEngine.Networking;
+using Mirror;
 
 namespace Barebones.MasterServer
 {

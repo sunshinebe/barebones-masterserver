@@ -3,7 +3,7 @@ using Barebones.Logging;
 using Barebones.MasterServer;
 using Barebones.Networking;
 using UnityEngine;
-using UnityEngine.Networking;
+using Mirror;
 
 public class UnetServerStarter : MonoBehaviour
 {
