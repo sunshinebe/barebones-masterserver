@@ -4,6 +4,6 @@ namespace Barebones.Networking
 {
     public class BNetworkReader : NetworkReader
     {
-        
+
     }
 }

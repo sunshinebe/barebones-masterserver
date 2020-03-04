@@ -6,7 +6,9 @@ using Mirror;
 
 public class MiniNetworkManager : NetworkManager
 {
-    public  void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
+    //public  void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
+    public void OnServerAddPlayer(NetworkConnection conn , AddPlayerMessage extraMessage)
+
     {
         SpawnPlayer(conn, "Player", "carrot");
     }
@@ -31,7 +33,7 @@ public class MiniNetworkManager : NetworkManager
             player.transform.position = position.position;
         }
 
-        NetworkServer.AddPlayerForConnection(connection, player.gameObject, 0);
+        NetworkServer.AddPlayerForConnection(connection, player.gameObject, System.Guid.Empty);
         player.SetWeapon(weaponSprite);
         player.Setup(playerName);
 

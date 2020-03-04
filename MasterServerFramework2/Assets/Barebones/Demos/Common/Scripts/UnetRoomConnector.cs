@@ -89,7 +89,7 @@ public class UnetRoomConnector : RoomConnector
         {
             // If we're not connected already
             NetworkManager.networkAddress = access.RoomIp;
-            NetworkManager.networkPort = access.RoomPort;
+            //NetworkManager.networkPort = access.RoomPort;
             NetworkManager.StartClient();
         }
 

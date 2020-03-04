@@ -33,7 +33,7 @@ namespace Barebones.Networking
             _connectedPeers = new Dictionary<int, PeerUnet>();
             _topology = topology;
 
-            _msgBuffer = new byte[NetworkMessage.MaxMessageSize];
+            //_msgBuffer = new byte[NetworkMessage.MaxMessageSize];
         }
 
         public void Listen(int port)

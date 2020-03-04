@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using Barebones.MasterServer;
 using Barebones.Networking;
 using UnityEngine;
-using UnityEngine.Networking.NetworkSystem;
+//using UnityEngine.Networking.NetworkSystem;
+using Mirror;
 
 public class TestScript : MonoBehaviour, ILobbyListener {
 

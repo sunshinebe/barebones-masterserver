@@ -13,7 +13,7 @@ public class CustomNetworkManager : NetworkManager
         var customPlayer = playerPrefab.GetComponent<CustomPlayer>();
         customPlayer.UsernameMesh.text = "Random" + (int) (Random.value*100);
 
-        NetworkServer.AddPlayerForConnection(conn, player.gameObject, 0);
+        NetworkServer.AddPlayerForConnection(conn, player.gameObject, System.Guid.Empty);
 
     }
 }

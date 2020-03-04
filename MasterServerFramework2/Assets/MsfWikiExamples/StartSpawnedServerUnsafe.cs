@@ -34,6 +34,7 @@ public class StartSpawnedServerUnsafe : MonoBehaviour
 
         if (Msf.Args.IsProvided(Msf.Args.Names.WebGl))
             networkManager.useWebSockets = true;
+        
 
         networkManager.networkPort = Msf.Args.AssignedPort;
         networkManager.StartServer();
