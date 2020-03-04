@@ -6,6 +6,10 @@ namespace Mirror
         public NetworkConnection conn;
         public NetworkReader reader;
         public int channelId;
+        /// <summary>
+        /// sun add
+        /// </summary>
+        public byte MaxMessageSize;
 
         public TMsg ReadMessage<TMsg>() where TMsg : IMessageBase, new()
         {

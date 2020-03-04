@@ -44,7 +44,15 @@ namespace Mirror
             }
             throw new Exception("Cannot expose contents of memory stream. Make sure that MemoryStream buffer is publicly visible (see MemoryStream source code).");
         }
+        /// <summary>
+        /// sun add
+        /// </summary>
+        public void SeekZero()
+        {
 
+        }
+
+        /// <param name="value"></param>
         // reset both the position and length of the stream,  but leaves the capacity the same
         // so that we can reuse this writer without extra allocations
         public void SetLength(long value)
