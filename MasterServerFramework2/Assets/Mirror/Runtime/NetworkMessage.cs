@@ -9,7 +9,7 @@ namespace Mirror
         /// <summary>
         /// sun add
         /// </summary>
-        public byte MaxMessageSize;
+        public byte MaxMessageSize { get; }
 
         public TMsg ReadMessage<TMsg>() where TMsg : IMessageBase, new()
         {

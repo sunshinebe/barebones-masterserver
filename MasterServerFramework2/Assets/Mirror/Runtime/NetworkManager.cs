@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
+//using QosType = UnityEngine.Networking.QosType;
 
 namespace Mirror
 {
@@ -28,6 +29,7 @@ namespace Mirror
         /// </summary>
         public int networkPort;
         public bool useWebSockets = false;
+        //public List<QosType> channels { get; }
         /// <summary>
         /// A flag to control whether the NetworkManager object is destroyed when the scene changes.
         /// <para>This should be set if your game has a single NetworkManager that exists for the lifetime of the process. If there is a NetworkManager in each scene, then this should not be set.</para>

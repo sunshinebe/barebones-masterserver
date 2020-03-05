@@ -292,7 +292,7 @@ namespace Barebones.Networking
 
                     _isConnectionPending = true;
 
-                    if (error != (int) NetworkError.Ok)
+                    if (error != (int) UnityEngine.Networking.NetworkError.Ok)
                     {
                         StopConnecting();
                         return;

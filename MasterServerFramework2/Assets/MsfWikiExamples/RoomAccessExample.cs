@@ -45,7 +45,12 @@ public class RoomAccessExample : MonoBehaviour
             var tokenMsg = new StringMessage(access.Token);
 
             // Send the token to unet server
-            networkManager.client.connection.Send(777, tokenMsg);
+            //networkManager.client.connection.Send(777, tokenMsg);
+            NetworkClient.Send<StringMessage>(tokenMsg,777);
+
+            //NetworkClient.Connect<StringMessage>(tokenMsg);
+             
+             
         }));
     }
 

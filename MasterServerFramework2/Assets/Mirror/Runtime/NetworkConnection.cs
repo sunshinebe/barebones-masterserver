@@ -201,15 +201,21 @@ namespace Mirror
             byte[] message = MessagePacker.PackMessage(msgType, msg);
             return Send(new ArraySegment<byte>(message), channelId);
         }
+        public virtual bool Send(short msgType, MessageBase msg)
+                {
+            // pack message and send
+            //byte[] message = MessagePacker.PackMessage(msgType, msg);
+            return Send(msgType, msg);
+        }
 
-        /// <summary>
-        /// This sends a network message with a message ID on the connection. This message is sent on channel zero, which by default is the reliable channel.
-        /// </summary>
-        /// <typeparam name="T">The message type to unregister.</typeparam>
-        /// <param name="msg">The message to send.</param>
-        /// <param name="channelId">The transport layer channel to send on.</param>
-        /// <returns></returns>
-        public bool Send<T>(T msg, int channelId = Channels.DefaultReliable) where T : IMessageBase
+    /// <summary>
+    /// This sends a network message with a message ID on the connection. This message is sent on channel zero, which by default is the reliable channel.
+    /// </summary>
+    /// <typeparam name="T">The message type to unregister.</typeparam>
+    /// <param name="msg">The message to send.</param>
+    /// <param name="channelId">The transport layer channel to send on.</param>
+    /// <returns></returns>
+    public bool Send<T>(T msg, int channelId = Channels.DefaultReliable) where T : IMessageBase
         {
             using (PooledNetworkWriter writer = NetworkWriterPool.GetWriter())
             {

@@ -211,7 +211,8 @@ namespace Barebones.Networking
 
             for (int i = 0; i < count; i++)
             {
-                list.Add(reader.ReadMessage<T>());
+                //list.Add(reader.ReadMessage<T>());
+                list.Add(reader.ReadMessage<T>(msg));
             }
 
             return list;

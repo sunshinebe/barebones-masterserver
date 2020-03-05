@@ -131,7 +131,9 @@ public class UnetRoomConnector : RoomConnector
         Logger.Info("Connected to game server, about to send access");
         
         // Connected, send the token
-        NetworkManager.client.connection.Send(UnetGameRoom.AccessMsgType, new StringMessage(access.Token));
+        //NetworkManager.client.connection.Send(UnetGameRoom.AccessMsgType, new StringMessage(access.Token));
+        NetworkManager.client.connection.Send(0 , UnetGameRoom.AccessMsgType, 0);
+
 
         // While connected
         while (NetworkManager.IsClientConnected())
