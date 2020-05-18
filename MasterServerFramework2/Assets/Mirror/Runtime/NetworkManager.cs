@@ -36,6 +36,10 @@ namespace Mirror
         public bool dontDestroyOnLoad = true;
 
         /// <summary>
+        /// sun change
+        /// </summary>
+        public int networkPort =0 ;
+        /// <summary>
         /// Controls whether the program runs when it is in the background.
         /// <para>This is required when multiple instances of a program using networking are running on the same machine, such as when testing using localhost. But this is not recommended when deploying to mobile platforms.</para>
         /// </summary>
