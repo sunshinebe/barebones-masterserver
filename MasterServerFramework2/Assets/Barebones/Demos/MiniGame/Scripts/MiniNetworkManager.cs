@@ -7,10 +7,12 @@ using Mirror;
 
 public class MiniNetworkManager : NetworkManager
 {
-    public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
-    {
-        SpawnPlayer(conn, "Player", "carrot");
-    }
+
+    //sun 
+    //public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
+    //{
+    //    SpawnPlayer(conn, "Player", "carrot");
+    //}
 
     /// <summary>
     ///     Spawns a character for connected client, and assigns it to connection

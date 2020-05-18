@@ -6,7 +6,8 @@ using Barebones.Utils;
 using UnityEngine;
 //using UnityEngine.Networking;
 using Mirror;
-using UnityEngine.Networking.NetworkSystem;
+//using UnityEngine.Networking.NetworkSystem;
+
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 

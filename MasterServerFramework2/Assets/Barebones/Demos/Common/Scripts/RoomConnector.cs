@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 //using Mirror;
-using UnityEngine.Networking.NetworkSystem;
+//using UnityEngine.Networking.NetworkSystem;
 
 namespace Barebones.MasterServer
 {

@@ -3,7 +3,7 @@ using Barebones.MasterServer;
 using UnityEngine;
 //using UnityEngine.Networking;
 using Mirror;
-using UnityEngine.Networking.NetworkSystem;
+//using UnityEngine.Networking.NetworkSystem;
 
 public class UnetMsfPlayer
 {
