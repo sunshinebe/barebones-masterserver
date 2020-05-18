@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine.Networking;
+using Mirror;
 
 namespace Barebones.Networking
 {

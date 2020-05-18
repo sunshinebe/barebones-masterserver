@@ -2,7 +2,8 @@
 using System.Linq;
 using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
+//using UnityEngine.Networking;
+using Mirror;
 
 public class MiniNetworkManager : NetworkManager
 {

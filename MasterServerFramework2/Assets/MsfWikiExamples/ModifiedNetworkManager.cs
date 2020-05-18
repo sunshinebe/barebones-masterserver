@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.Networking;
+//using UnityEngine.Networking;
+using Mirror;
 
 /// <summary>
 /// This script represents the changes that you will need to do in your custom

@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using Barebones.Logging;
 using Barebones.Networking;
 using UnityEngine;
-using UnityEngine.Networking;
+//using UnityEngine.Networking;
+using Mirror;
 
 namespace Barebones.MasterServer
 {

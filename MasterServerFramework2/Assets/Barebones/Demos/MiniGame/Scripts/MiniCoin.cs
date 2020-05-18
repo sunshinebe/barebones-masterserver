@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.Networking;
+//using UnityEngine.Networking;
+using Mirror;
 
 public class MiniCoin : NetworkBehaviour
 {

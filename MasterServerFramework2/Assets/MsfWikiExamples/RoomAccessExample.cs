@@ -2,7 +2,8 @@
 using System.Collections;
 using Barebones.MasterServer;
 using UnityEngine;
-using UnityEngine.Networking;
+//using UnityEngine.Networking;
+using Mirror;
 using UnityEngine.Networking.NetworkSystem;
 
 public class RoomAccessExample : MonoBehaviour
